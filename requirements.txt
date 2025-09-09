@@ -1,0 +1,8 @@
+streamlit
+pandas
+rdkit
+biopython
+numpy
+py3Dmol
+openpyxl
+plip
