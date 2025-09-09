@@ -89,13 +89,11 @@ Choose one of the following methods to install `GNINA`:
     wget https://github.com/gnina/gnina/releases/download/v1.0.1/gnina
     ```
 
-- After downloading GNINA binary, make the binary executable:
+- Once you’ve downloaded the GNINA binary, rename it to `gnina` (removing the version number) and make the binary executable:
 
 ```
 chmod +x gnina
 ```
-
-Replace `gnina` with your filename, e.g: `gnina.1.3.2`
 
 
 ## Add GNINA Binary to System's PATH
@@ -165,7 +163,7 @@ The application will open in your default web browser at `http://localhost:8501`
     The application will automatically extract the ligand coordinates from these files to define the binding site.
 
 
-# 🔄 App workflows and usage
+## 🔄 App workflows and usage
 
 DOCK-IT provides three distinct docking workflows:
 
