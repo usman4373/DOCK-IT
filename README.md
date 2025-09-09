@@ -11,9 +11,9 @@ A Streamlit application that performs virtual screening with the [GNINA](https:/
 3. [🏃 How to run](#-how-to-run)
 4. [📂 Input file formats & expected structure](#-input-file-formats--expected-structure)
 5. [🔄 App workflows and usage](#-app-workflows-and-usage)
-   - [Blind Docking](#blind-docking)
-   - [Site-Specific Docking with Reference Ligand](#site-specific-docking-with-reference-ligand)
-   - [Residue Based Docking](#residue-based-docking)
+   - [🌀 Blind Docking](#-blind-docking)
+   - [🎯 Site-Specific Docking with Reference Ligand](#-site-specific-docking-with-reference-ligand)
+   - [🧬 Residue Based Docking](#-residue-based-docking)
 6. [📚 Citation](#-citation)
 7. [🤝 Acknowledgments](#-acknowledgments)
 
@@ -167,7 +167,7 @@ The application will open in your default web browser at `http://localhost:8501`
 
 DOCK-IT provides three distinct docking workflows:
 
-### Blind Docking
+### 🌀 Blind Docking
 
 Screen ligands against the entire protein surface to identify potential binding sites.
 
@@ -184,7 +184,7 @@ Screen ligands against the entire protein surface to identify potential binding 
 - Review results with detailed interaction reports
 
 
-### Site-Specific Docking with Reference Ligand
+### 🎯 Site-Specific Docking with Reference Ligand
 
 Focus docking on a specific binding site using a known reference ligand.
 
@@ -205,7 +205,7 @@ Focus docking on a specific binding site using a known reference ligand.
 - Review results with detailed interaction reports
 
 
-### Residue-Based Docking
+### 🧬 Residue-Based Docking
 
 Define a custom binding site by specifying specific protein residues.
 
