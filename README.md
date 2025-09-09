@@ -53,17 +53,19 @@ conda create -n dockit python=3.10
 conda activate dockit
 ```
 
+**Install OpenBabel, swig, and PyMOL from `conda-forge` instead of `pip`:**
+
+```
+conda install -c conda-forge openbabel swig pymol-open-source
+```
+
+- Alternatively, you can download PyMOL from the [official website](https://www.pymol.org/) and add it to the system's PATH.
+
+- Now, install other packages using `pip`:
+
 ```
 pip install -r requirements.txt
 ```
-
-**Install PyMOL from `conda-forge` instead of `pip`:**
-
-```
-conda install -c conda-forge pymol-open-source
-```
-
-- Alternatively, download PyMOL from the [official website](https://www.pymol.org/) and add it to the system's PATH.
 
 ### GNINA Installation
 
